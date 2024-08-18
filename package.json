@@ -1,0 +1,13 @@
+{
+  "name": "video-trimmer",
+  "version": "1.0.0",
+  "description": "A simple video trimmer using Node.js and ffmpeg",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
