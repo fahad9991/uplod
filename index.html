@@ -28,7 +28,7 @@
 
             formData.append('video', videoInput);
 
-            const response = await fetch('/upload', {
+            const response = await fetch('https://your-server-url.com/upload', {  // قم بتغيير 'your-server-url.com' إلى عنوان الخادم الخاص بك
                 method: 'POST',
                 body: formData
             });
